@@ -1,0 +1,8 @@
+
+function reverseString(str) {
+  if (typeof str !== 'string') return undefined;
+  return str.split('').reverse().join('');
+}
+
+
+console.log(reverseString("hello"));
